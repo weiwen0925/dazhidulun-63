@@ -856,4 +856,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C63P1:END-->
+<!--WY-C63P2:BEGIN-->
+<style id="wy-c63p2-css">
+.c63p2-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c63p2-fabbox.show{display:block;}
+.c63p2-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c63p2-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c63p2-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c63p2-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c63p2-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c63p2-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c63p2-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c63p2-modal.open{display:flex;}
+.c63p2-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c63p2-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c63p2-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c63p2-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c63p2-close:hover{background:#e3d5b8;}
+.c63p2-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c63p2-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c63p2-tbl th,.c63p2-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c63p2-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c63p2-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c63p2-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c63p2-tbl b{color:#8b2500;}
+.c63p2-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c63p2-note b{color:#8b2500;}
+@media(max-width:900px){.c63p2-fabbox{right:14px;}.c63p2-tbl{font-size:11.5px;}.c63p2-card{padding:26px 14px 16px;}}
+</style>
+<div class="c63p2-fabbox" id="c63p2Box"><button class="c63p2-btn" id="c63p2Btn" type="button" aria-label="開啟全景總表"><span class="c63p2-ic">▦</span><span class="c63p2-ls"><span class="c63p2-l1">本品 · 釋淨品</span><span class="c63p2-l2">淨品·三重哲學悖論</span></span></button></div><div class="c63p2-modal" id="c63p2Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c63p2-card"><button class="c63p2-close" id="c63p2Close" type="button" aria-label="關閉">×</button><h3>卷63·第二品 釋淨品 · 全景總表</h3><p class="sub">卷63・第二品｜修證因緣認識三重悖論・破自性・真俗二諦矩陣</p><table class="c63p2-tbl"><caption>一、三重哲學悖論總覽（修證・因緣・認識）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>修證悖論：無縛無解</td><td>修行明明為求解脫，般若卻說色等諸法「不縛不解」——本體論層次的第一重悖論，須拆穿「縛」與「解」各具獨立實體的假設。</td></tr><tr><td>因緣悖論：突入魔事</td><td>須菩提析難信之因隻字未提魔，佛陀印可後卻補上「繫屬於魔」——探討純粹空性深理，何以要引入外在的干擾源，是緣起論層次的第二重悖論。</td></tr><tr><td>認識悖論：果淨故因淨</td><td>聲聞以觀身不淨為入道之門，本品卻推演「色淨故果亦淨」——認識論層次的第三重悖論，最違反世俗直覺。</td></tr><tr><td>二諦對照：世俗修行觀vs般若實相觀</td><td>世俗諦：煩惱→對治→解脫的二元對立歷程；勝義諦：煩惱即空、本無縛故無解——般若不破壞常規，只抽離其「實有自性」的底層假設。</td></tr><tr><td>底層代碼：破自性</td><td>三道悖論並非各自獨立，而是同一中觀刀鋒的三個切面，共用一個底層代碼——抽掉諸法的實有自性，縛解對立、魔事恐懼、染淨分別即同時瓦解。</td></tr></tbody></table><table class="c63p2-tbl"><caption>二、破自性的邏輯論證（縛解・魔事・因果反推）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>縛是三毒·解是三脫門</td><td>世俗常規：三毒（貪瞋癡）是縛，三解脫門（空無相無願）是解，以解對破縛；般若指出縛法虛誑不實，從和合因緣生，無自性故無縛，無縛故無解。</td></tr><tr><td>兩難破斥</td><td>若縛法實有自性則永不可解（無解脫期）；若強制破壞實有之體則從實有突變為絕對的無（墮斷滅見）——唯有煩惱虛誑不實、從和合生一途可立中道。</td></tr><tr><td>心清淨相即非心相</td><td>一切心心數法憶想分別皆縛在緣中；契入實相知皆虛誑，真清淨非獲取某種更純淨的心理狀態，而是連「心」之概念本身亦不復成立——縛既空，解亦隨之空。</td></tr><tr><td>佛陀具足說補魔事</td><td>須菩提只見顯而易見的心理社會變數（內因＋外緣），佛陀以遍知視角補上法界中不可見的隱藏變數（魔所使），使緣起觀察模型達到絕對具足；魔擾本身亦由「執有」而生。</td></tr><tr><td>因果反推：果淨故知因亦淨</td><td>四念處涅槃之果絕對清淨；若色法之因實有污穢自性則性質不可變異、永不能提煉出清淨果；既能證得清淨果，反向證明色身本即無自性的空性，如礦石本具純金之屬性。</td></tr></tbody></table><table class="c63p2-tbl"><caption>三、真俗二諦矩陣與般若三因</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>真俗二諦矩陣三重會通</td><td>橫軸二諦（世俗／勝義）、縱軸三重躍遷（本體／緣起／認識），勝義諦一欄（無縛無解、洞察魔事虛妄、果淨因亦淨）共用同一基礎：諸法無自性。</td></tr><tr><td>般若三因：正觀正行正修</td><td>「無縛無解」之理證須三者協同方能現證：正觀（觀諸法實相不生不滅，心法核心）、正行（行六波羅蜜，事相資糧）、正修（修四念處，身心覺照），缺一不可。</td></tr><tr><td>假名無我畢竟淨</td><td>我於十方三世中求不可得，於五眾中但有假名；依附於我而建立的煩惱、魔障、染淨全部皆空——這是整座中觀邏輯大廈的基石，空即是最極致的淨。</td></tr><tr><td>解構與重構的閉環</td><td>以破自性為樞紐，依次解構煩惱（無縛無解）、解構干擾（魔事具足）、解構染淨（果淨因淨），終回歸佛陀「如是！如是！」的絕對印可——非消極虛無，而是從徹底解構走向完美重構。</td></tr><tr><td>進階參究</td><td>在無縛無解、果淨因淨的絕對無二見地中，菩薩應如何安立盡未來際度脫眾生的無盡悲願而不墮空沉？此為留給後世學人的終極叩問。</td></tr></tbody></table><p class="c63p2-note">本品環繞三道彼此咬合的哲學悖論展開：修證悖論質疑「求解脫」與「無縛無解」如何並存，因緣悖論追問空性論述中何以突入魔事，認識悖論則挑戰「觀身不淨」與「果淨因淨」的表面矛盾。龍樹的解法始終如一——破自性。縛解本是虛誑因緣所生，並無獨立實體可供捆綁或解開；魔事的出現，只是佛陀以遍知視角補足緣起模型的隱藏變數，而非額外的迷信；果淨因淨，則是以「若因有定性則果不能成」的中觀因果反推，證成色身本來即是無自性的空性。三重躍遷看似分立，實則同源於「諸法無自性」這一基礎，並在真俗二諦矩陣中完美會通。而落實於修證，則須正觀、正行、正修三因緣協同並進，終歸於「假名無我，畢竟淨」——我既於十方三世求不可得，一切依我而立的染淨分別便同歸於空。這正是般若「甚深難信難解」的根本原因：它摧毀的不是修行的努力，而是修行者對「獲得解脫」這件事本身的貪求執取。</p></div></div>
+<script id="wy-c63p2-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c63p2Btn"),BOX=document.getElementById("c63p2Box"),MODAL=document.getElementById("c63p2Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=1;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.video-float,#videoFloat,#wyVidFab,.wy-vid-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c63p2Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C63P2:END-->
 </body></html>
